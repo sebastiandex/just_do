@@ -1,0 +1,35 @@
+.mainContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.leftPic {
+  width: 47%;
+  background-image: url("./assets/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+
+  img {
+    display: block;
+    width: 39%;
+    height: auto;
+  }
+}
+.rightBlock {
+  width: 53%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.rightLabel {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  font: normal normal bold 24px/27px Comfortaa;
+  letter-spacing: 0;
+  color: #212020;
+}

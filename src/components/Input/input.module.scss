@@ -1,0 +1,36 @@
+
+.mainContainer {
+  width: 60%;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #BBBBC7;
+  font: normal normal normal 16px/24px SF Pro Text;
+  letter-spacing: 0;
+  color: #212020;
+  input {
+    all: unset;
+    width: 95%;
+    margin-bottom: 10px;
+    background-color: transparent;
+    &::placeholder {
+      color: #BBBBC7;
+    }
+    &:-webkit-autofill {
+      -webkit-animation-name: autofill;
+      -webkit-animation-fill-mode: both;
+    }
+  }
+
+}
+.eyeImage {
+  display: inline-block;
+  background-image: url('./assets/eye_visible.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 13px;
+  &.visible {
+    height: 17px;
+    margin-bottom: -1px;
+    background-image: url('./assets/eye_unvisible.svg');
+  }
+}
