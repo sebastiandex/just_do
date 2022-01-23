@@ -1,0 +1,51 @@
+{
+  "priorities": [
+    "All", "Urgently", "Important", "Normal", "Neutral"
+  ],
+  "days": [
+    {
+      "id": 1,
+      "date": "23.01.2021",
+      "tasks": [
+        {
+          "id": 234,
+          "label": "Выполнить заказ по логотипу",
+          "description": "Разработать логотип для компании Z, цвета: белый и синий",
+          "priority": "Urgently",
+          "time": "13:00",
+          "duration": 60
+        },
+        {
+          "id": 244,
+          "label": "Еще задачка",
+          "description": "Описание задачки",
+          "priority": "Normal",
+          "time": "23:00",
+          "duration": 120
+        },
+        {
+          "id": 123,
+          "label": "Третья для количества",
+          "description": "Какое-то описание, возможно немного длиннее чем предыдущие, как будет смотреться такое сочинение?",
+          "priority": "Urgently",
+          "time": "17:00",
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "24.01.2021",
+      "tasks": [
+        {
+          "id": 1423,
+          "label": "Прием у врача",
+          "description": "Кабинет №27, Остапенко А. В.",
+          "priority": "Important",
+          "time": "15:20",
+          "duration": 30
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,7 @@
   height: 100vh;
   display: flex;
   flex-direction: row;
+  letter-spacing: 0;
 }
 .leftPic {
   width: 47%;
@@ -30,6 +31,24 @@
   margin-top: 10vh;
   margin-bottom: 10vh;
   font: normal normal bold 24px/27px Comfortaa;
-  letter-spacing: 0;
   color: #212020;
+}
+.signBlock {
+  margin-top: 35px;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  height: -webkit-fill-available;
+  font: normal normal normal 16px/24px SF Pro Text;
+
+  color: #BBBBC7;
+}
+a {
+  cursor: pointer;
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal medium 16px/24px SF Pro Text;
+  color: #2F80ED;
 }

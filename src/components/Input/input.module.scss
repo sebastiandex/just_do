@@ -1,6 +1,6 @@
 
 .mainContainer {
-  width: 60%;
+  //width: 60%;
   margin-bottom: 40px;
   border-bottom: 1px solid #BBBBC7;
   font: normal normal normal 16px/24px SF Pro Text;
@@ -10,7 +10,6 @@
     all: unset;
     width: 95%;
     margin-bottom: 10px;
-    background-color: transparent;
     &::placeholder {
       color: #BBBBC7;
     }
@@ -19,7 +18,6 @@
       -webkit-animation-fill-mode: both;
     }
   }
-
 }
 .eyeImage {
   display: inline-block;

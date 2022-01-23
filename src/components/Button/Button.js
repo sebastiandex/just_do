@@ -7,5 +7,6 @@ const Button = ({label}) => {
             {label}
         </button>
     )
-}
-export default Button
+};
+
+export default Button;

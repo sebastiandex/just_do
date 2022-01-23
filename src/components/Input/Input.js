@@ -1,13 +1,15 @@
 import React, {useState} from "react";
-import style from './input.module.scss'
+import style from './input.module.scss';
 
-const Input = ({type, mask, placeholder}) => {
+const Input = ({type, mask, placeholder, onChange, value}) => {
     const [inputType, setInputType] = useState(type)
     return (
         <div className={style.mainContainer}>
             <input
                 placeholder={placeholder}
                 type={inputType}
+                value={value}
+                onChange={(e) => onChange(e.target.value)}
             />
             {type === 'password' ? (
                 <div
@@ -17,5 +19,6 @@ const Input = ({type, mask, placeholder}) => {
             ) : null}
         </div>
     )
-}
-export default Input
+};
+
+export default Input;

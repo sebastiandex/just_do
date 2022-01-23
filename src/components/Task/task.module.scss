@@ -1,0 +1,49 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #BBBBC750;
+  margin-bottom: 20px;
+  > div {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.checkbox {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #BBBBC7;
+  border-radius: 3px;
+  margin-right: 25px;
+}
+.label {
+  all: unset;
+  width: 100%;
+  text-align: left;
+  font: normal normal medium 16px/19px SF Pro Text;
+  letter-spacing: 0.32px;
+  color: #212020;
+}
+.description {
+  all: unset;
+  width: 100%;
+  font: normal normal normal 16px/24px SF Pro Text;
+  color: #BBBBC7;
+  opacity: 1;
+  margin-top: 10px;
+}
+.bottomBlock {
+  margin-top: 21px;
+  display: flex;
+  flex-direction: row;
+  font: normal normal normal 14px/24px SF Pro Text;
+  letter-spacing: 0.28px;
+  color: #212020;
+  margin-bottom: 16px;
+}
+.bottomItem {
+  margin-right: 16px;
+}
+.delete {
+  margin-left: auto;
+  cursor: pointer;
+}
